@@ -15,10 +15,8 @@ AWS Cloudformation Template Creat VPC
 | DB ZA      | 10.0.0.128/24 | 27 | NAT-GW | Private-RT
 | DB ZB      | 10.0.0.160/24 | 27 | NAT-GW | Private-RT
 
-4. สามารถกำหนด Prefixของ Subnet ได้เอง ได้เอง
+4. สามารถกำหนด Prefix ของ Subnet ได้เอง
 5. สามารถกำหนด ชื่อของ VPC ได้
-6. ส่วนประกอบ
-
 
 
 ## ScreenShot
