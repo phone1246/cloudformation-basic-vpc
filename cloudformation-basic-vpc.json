@@ -1150,10 +1150,7 @@
     "Parameters": {
         "VPCNetwork": {
             "Description": "Enter VPC Name",
-            "Type": "String",
-            "AllowedPattern":"[A-Za-z0-9]+",
-             "MinLength": "1",
-            "ConstraintDescription": "Allow Only a-Z and number"
+            "Type": "String"
         },
         "CIDR": {
             "Description": "Endter Netework CIDR Block",
@@ -1173,10 +1170,8 @@
         },
         "SubnetPrefix":{
             "Description": "Enter Prefix Subnet eg. ${prefix}-Private-ZA",
-            "Type":"String",
-            "AllowedPattern":"[A-Za-z0-9]+",
-             "MinLength": "1",
-            "ConstraintDescription": "Allow Only a-Z and number"
+            "Type":"String"
+
         }
     }
 }
