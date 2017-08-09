@@ -7,7 +7,7 @@ AWS Cloudformation Template Creat VPC
 3. สร้างทั้งหมด 6 Subnet  
 
 |  Subnet Nasme       |  IP Block           | Host  |  Attach GW  | Routing Table  |
-| ------------- |:-------------:| -----:|-----:| -----:| 
+| ------------- |:-------------:| -----:|-----:| -----:|  
 | Public ZA  | 10.0.0.0/24 | 27 |  IG | Public-RT
 | Public ZB  | 10.0.0.32/24 | 27 | IG | Public-RT
 | Private ZA | 10.0.0.64/24 | 27 | NAT-GW | Private-RT
